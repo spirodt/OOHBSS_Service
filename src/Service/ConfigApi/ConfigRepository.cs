@@ -12,7 +12,7 @@ namespace Service.ConfigApi
 
         public ConfigRepository()
         {
-            Add(new ConfigItem { Name = "DatabaseConnectionAdmin" });
+            Add(new ConfigItem { Name = "DatabaseConnectionAdmin"});
             Add(new ConfigItem { Name = "DatabaseConnectionLive" });
             Add(new ConfigItem { Name = "DatabaseConnectionDW" });
         }
